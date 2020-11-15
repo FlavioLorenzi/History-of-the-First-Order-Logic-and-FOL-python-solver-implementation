@@ -1,0 +1,20 @@
+
+
+
+5
+~Brother(Alan,Jack)
+Brother(Rick,Jack)
+Brother(Wayne,Rick)
+Friend(Jack,Alan)
+~Friend(Jack,Wayne)
+8
+Windsor(Jack)
+Windsor(Rick)
+Snow(Alan)
+Rooney(Wayne)
+~Windsor(x) | ~Windsor(y) | Brother(x,y)
+~Snow(x) | ~Windsor(y) | ~Brother(x,y)
+~Rooney(x) | ~Windsor(y) | ~Brother(x,y)
+~Windsor(z) | ~Snow(y) | ~Rooney(x) | ~Friend(y,z) | Friend(x,z)
+
+
