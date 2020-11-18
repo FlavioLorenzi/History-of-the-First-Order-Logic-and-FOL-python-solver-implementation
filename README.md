@@ -9,4 +9,4 @@ In this work we will see also a lot of formulation examples (in comparison) appl
 
 To complete the work, a modern python solver impelemntation is realized.
 
-
+![](py.jpg)
